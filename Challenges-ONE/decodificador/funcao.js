@@ -5,6 +5,24 @@ let botaocrip = document.getElementById("bCrip");
 let botaodescrip = document.getElementById("bDescrip");
 let botaocopiar = document.getElementById("bCopiar");
 
+/* FUNÇÃO PARA CARACTERES ESPECIAIS.
+caixatxt1.addEventListener("keypress", function(e){
+    if(check(e) == true){
+        alert("Não são permitidos caracteres especiais!")
+    }
+})
+function check(e) {
+    let char = String.fromCharCode(e.keycode)
+
+    let pattern = '[a-z]'
+    if(char.match(pattern)){
+        return true
+    }else{
+        alert("Não são permitidos caracteres especiais!")
+    }
+}
+*/
+
 function criptografar() {
     let txtCriptografado = caixatxt1.value;
     
