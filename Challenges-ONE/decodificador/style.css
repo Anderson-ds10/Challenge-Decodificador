@@ -1,79 +1,112 @@
 @charset "UTF8";
-*{
-    margin: 0px;
-    padding: 0px;
-}
 header{
     text-align: center;
     background-color: #A54234;
     color: white;
-    padding: 8px;
+    padding: 20px;
+    font-size: 2em;
+    width: auto;
 }
 textarea{
     font-family: inherit;
-    font-size: 100%;
+    font-size: 25px;
     box-sizing: border-box;
     width: 460px;
+    height: 410px;
     text-align: center;
-    padding: 100px;
-    margin: 0px;
+    padding: 30px;
     border: 3px solid #3A3632;
     border-radius: 10px;
+    box-shadow: 2px 3px 6px black;
     text-transform: lowercase;
+}
+textarea::placeholder{
+    font-size: 30px;
+}
+.caixasarea{
+    margin: 5vh 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 div.caixatxt{
     display: inline-block;
-    padding: 20px;
-    margin-left: 100px;
-    width: auto;
-    height: auto;
 }
 div.caixatxt2{
     display: inline-block;
-    margin-bottom: 0px;
-    padding: 0px;
+}
+figure{
+    display: flex;
+    padding: 8px;
 }
 #bCrip{
     display: inline-block;
-    margin-left: 70px;
+    margin: 10px 0 0 70px;
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 2px 3px 6px black;
     padding: 10px;
     background-color: #3A3632;
     color: white;
     font-size: 16px;
+}
+#bCrip:hover{
+    font-size: 18px;
+    background-color: #A54234;
+    transition: 0.5s;
 }
 #bDescrip{
     display: inline-block;
-    margin-left: 80px;
+    margin: 10px 0 0 80px;
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 2px 3px 6px black;
     padding: 10px;
     background-color: #3A3632;
     color: white;
     font-size: 16px;
+}
+#bDescrip:hover{
+    font-size: 18px;
+    background-color: #A54234;
+    transition: 0.5s;
 }
 #bCopiar{
     display: inline-block;
-    margin-left: 360px;
+    margin: 10px 0 0 200px;
     border: 2px solid black;
     border-radius: 10px;
+    box-shadow: 2px 3px 6px black;
     padding: 10px;
     background-color: #3A3632;
     color: white;
     font-size: 16px;
-    
 }
-figure{
-    display: inline-block;
-    vertical-align: top;
-    margin: 0px;
-    margin-top: 150px;
+#bCopiar:hover{
+    font-size: 18px;
+    background-color: #A54234;
+    transition: 0.5s;
 }
-
 footer{
+    margin-top: 20px;
     text-align: center;
+}
+footer p {
+    font-weight: bold;
 }
 a{
     padding: 10px;
+}
+.imagemfooter:hover{
+    width: 35px;
+    transition: 10s;
+}
+
+/*@media screen and (max-width: 900px){
+    .caixasarea{
+        width: auto;
+        display: flex;
+    }
 }
