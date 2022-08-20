@@ -11,7 +11,7 @@ textarea{
     font-family: inherit;
     font-size: 25px;
     box-sizing: border-box;
-    width: 460px;
+    width: 80%;
     height: 410px;
     text-align: center;
     padding: 30px;
@@ -34,18 +34,19 @@ textarea::placeholder{
 }
 div.caixatxt{
     display: inline-block;
+    text-align: center;
 }
 div.caixatxt2{
     display: inline-block;
+    text-align: center;
 }
-figure{
+.imagemchave{
     display: flex;
-    padding: 8px;
 }
 #bCrip{
     display: inline-block;
-    margin: 10px 0 0 70px;
     border: 2px solid black;
+    margin-top: 10px;
     border-radius: 10px;
     box-shadow: 2px 3px 6px black;
     padding: 10px;
@@ -60,7 +61,8 @@ figure{
 }
 #bDescrip{
     display: inline-block;
-    margin: 10px 0 0 80px;
+    margin-left: 50px;
+    margin-top: 10px;
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 2px 3px 6px black;
@@ -76,7 +78,7 @@ figure{
 }
 #bCopiar{
     display: inline-block;
-    margin: 10px 0 0 200px;
+    margin-top: 10px;
     border: 2px solid black;
     border-radius: 10px;
     box-shadow: 2px 3px 6px black;
@@ -105,6 +107,27 @@ a{
     transition: 10s;
 }
 
-@media only screen and (max-width: 1150px){
- 
+@media only screen and (max-width: 800px){
+ .caixasarea{
+    display: block;
+    width: auto;
+ }
+ .tamanhokey {
+    display: block;
+    margin: auto;
+ }
+ .imagemchave{
+    display: block;
+    margin: auto;
+    padding: 8px;
+ }
+}
+@media only screen and (max-width: 550px){
+    #bCrip, #bDescrip, #bCopiar{
+        padding: 8px;
+        font-size: 13px;
+    }
+    .tamanhokey{
+        width: 100px;
+    }
 }
