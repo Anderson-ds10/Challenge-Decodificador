@@ -55,9 +55,8 @@ div.caixatxt2{
     font-size: 16px;
 }
 #bCrip:hover{
-    font-size: 18px;
     background-color: #A54234;
-    transition: 0.5s;
+    transform: scale(1.1);
 }
 #bDescrip{
     display: inline-block;
@@ -72,9 +71,8 @@ div.caixatxt2{
     font-size: 16px;
 }
 #bDescrip:hover{
-    font-size: 18px;
     background-color: #A54234;
-    transition: 0.5s;
+    transform: scale(1.1);
 }
 #bCopiar{
     display: inline-block;
@@ -88,9 +86,8 @@ div.caixatxt2{
     font-size: 16px;
 }
 #bCopiar:hover{
-    font-size: 18px;
     background-color: #A54234;
-    transition: 0.5s;
+    transform: scale(1.1);
 }
 footer{
     margin-top: 20px;
@@ -103,8 +100,7 @@ a{
     padding: 10px;
 }
 .imagemfooter:hover{
-    width: 35px;
-    transition: 10s;
+    transform: scale(1.2);
 }
 
 @media only screen and (max-width: 800px){
